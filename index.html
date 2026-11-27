@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Letter for You</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<main id="experience">
+
+    <!-- EXIT LETTER BUTTON -->
+    <button
+        id="exit-letter"
+        class="exit-letter-button"
+        type="button"
+    >
+        &#8592; Return to Room
+    </button>
+
+    <section id="room" class="room-screen">
+
+        <!-- Victorian wall clock -->
+        <div class="clock-container">
+
+            <img
+                src="assets/clock/victorian-clock.png"
+                alt=""
+                class="victorian-clock"
+            >
+
+            <img
+                src="assets/clock/clock-pendulum.png"
+                alt=""
+                class="clock-pendulum"
+            >
+
+        </div>
+
+        <div class="room-scene">
+
+
+ <img
+ src="assets/room/room-no-curtains.png"
+alt="A warm Victorian library"
+ class="room-background"
+>
+<!-- Soft background blur when letter opens -->
+<div class="room-blur-overlay" aria-hidden="true"></div>
+
+<div class="rain-layer" aria-hidden="true">
+
+ <div class="rain-pane pane-1">
+ <img src="assets/water-drops.png" alt="">
+ </div>
+
+ <div class="rain-pane pane-2">
+ <img src="assets/water-drops.png" alt="">
+ </div>
+
+ <div class="rain-pane pane-3">
+ <img src="assets/water-drops.png" alt="">
+
+ </div>
+ <div class="rain-pane pane-4">
+<img src="assets/water-drops.png" alt="">
+
+ </div>
+ <div class="rain-pane pane-5">
+<img src="assets/water-drops.png" alt="">
+ </div>
+
+ <div class="rain-pane pane-6">
+<img src="assets/water-drops.png" alt="">
+</div>
+
+</div>
+<img
+src="assets/room/room-window-frame.png"
+ alt=""
+ class="window-frame-overlay"
+>
+ <button
+ id="chandelier"
+ class="chandelier-trigger"
+ aria-label="Swing the chandelier"
+>
+ <img
+  src="assets/chandelier/chandelier.png"
+ alt=""
+ >
+ </button>
+
+<img
+ src="assets/cat/cat.png"
+ alt="Sleeping cat"
+ class="sleeping-cat"
+ >
+ <img
+ src="assets/cat/ear.png"
+ alt=""
+class="cat-ear"
+>
+<!-- Coffee cup -->
+<img
+    src="assets/coffie/coffie cup.png"
+    alt="A warm cup of coffee"
+    class="coffee-cup"
+>
+<!-- Blue rose bouquet -->
+<img
+    src="assets/flowers/Flower.png"
+    alt="Blue roses in a Victorian vase"
+    class="flower-bouquet"
+>
+<!-- Coffee steam -->
+<!-- Coffee steam layer 1 -->
+<img
+    src="assets/coffie/steam.png"
+    alt=""
+    class="coffee-steam steam-one"
+>
+
+<!-- Coffee steam layer 2 -->
+<img
+    src="assets/coffie/steam.png"
+    alt=""
+    class="coffee-steam steam-two"
+>
+<img
+    src="assets/cat/right-armrest-foreground.png"
+    alt=""
+    class="right-armrest-foreground"
+>
+
+<!-- Interactive envelope -->
+<div id="envelope-container" class="envelope-container">
+
+    <!-- Original envelope on the table -->
+    <button
+        id="envelope-trigger"
+        class="envelope-trigger"
+        aria-label="Open the letter"
+    >
+        <img
+            src="assets/envelope/envelope-on-table.png"
+            alt="A sealed Victorian envelope"
+        >
+    </button>
+
+    <!-- Prominent envelope interaction -->
+<div id="envelope-focus" class="envelope-focus">
+
+    <!-- Base envelope: no wax seal -->
+    <img
+        src="assets/envelope/envelope-no-seal.png"
+        alt=""
+        class="envelope-main"
+    >
+<!-- Open envelope base with transparent interior -->
+<img
+    src="assets/envelope/envelope-open-base.png"
+    alt=""
+    class="envelope-open"
+>
+<!-- Horizontal inner lip of the envelope -->
+<img
+    src="assets/envelope/envelope-inner-lip.png"
+    alt=""
+    class="envelope-inner-lip"
+>
+<!-- Folded letter inside the envelope -->
+<img
+    src="assets/envelope/letter-folded.png"
+    alt="Folded letter"
+    class="letter-folded"
+>
+<!-- Letter unfolding transition -->
+<img
+    src="assets/envelope/letter-unfolding.png"
+    alt=""
+    class="letter-unfolding"
+>
+
+<!-- Final unfolded letter -->
+<img
+    src="assets/envelope/letter-unfolded.png"
+    alt="Unfolded letter"
+    class="letter-unfolded"
+>
+<div class="letter-content" id="letter-content">
+    <div class="letter-page">
+
+  <p class="letter-text">
+    Ohh... Ma'am, where do I even start the letter,
+    and how on earth will I be able to end this letter?
+    There are a lot of unsaid words, stories, and areas
+    we both had to explore. So where do I even begin?
+    Writing letters is my way of saying how much each
+    person meant to me.
+</p>
+
+<p class="letter-text">
+    Well, if our sessions were in person, I would
+    have given you the letter in person and a more
+    customized one, but here we both were online, and
+    I couldn't get much of who you are and what you
+    love most. But I wanted to give you the same stuff,
+    so I made the whole thing, and I hope you have
+    seen what I have built for you. Before you read
+    this...
+</p>
+
+<p class="letter-text">
+    Yes, ma'am, for every person, therapists are a
+    big part of life. But ma'am, for someone like me,
+    who didn't have a single soul to speak to or gain
+    comfort from, therapists are more than just that.
+    And you, on the other hand, you were my home,
+    ma'am. You were more than just a safe place. You
+    were my home...
+</p>
+
+
+</div>
+<div class="letter-page">
+    <p class="letter-text">
+        I just wish we had more time, ma'am. I wish, if
+        at all, I had come to Bangalore just one month or a
+        few weeks eralier, or if I had started therapy a
+        few months before, we would have had more time,
+        ma'am. Maybe just to share a few more stories or
+        laugh about a few more jokes. And yes, ma'am,
+        leaving you and writing this letter...is hard for me.
+        And you saw how hard it indeed is. And tears have
+        already blurred my vision...
+    </p>
+    <p class="letter-text">
+    But on the other hand, you are going for
+    something great and beautiful. Most people who
+    have suffered like me tend to hate seeing good
+    things happen to others. But I'm not that type. I'm a
+    person who gets most of his happiness from seeing
+    the people around me happy. Especially my loved
+    ones, and yes, of course, you are one of the very
+    few people in that, ma'am.
+</p>
+<p class="letter-text">
+    And just like everyone else, you are also
+    leaving. Even though you are leaving, you are going
+    for something good and beautiful. And you have no
+    idea how happy 
+</p>
+</div>
+<div class="letter-page">
+
+    <p class="letter-text">
+      I am for you. And the important
+        fact. In the short period of 3–4 months that I have
+        known you, I have seen how kind you are and what
+        a beautiful soul you have, ma'am.
+    </p>
+
+    <p class="letter-text">
+        And it's not because you were my therapist. I
+        can see and understand ma'am, that as a person,
+        you are a very kind-hearted soul.
+    </p>
+<p class="letter-text">
+    And I'm so so soo much happy for the baby, as
+    I'm a hundred percent sure that the baby is going
+    to be born to a beautiful mom. As a person who has
+    had a terrible family, I can give you my assurance
+    that you will be a great mother, and you are
+    already halfway through being a mom. In my perspective, you shouldn't even think of
+    worrying about that part. And again, I'm so so soo
+    much happy for you, ma'am.
+</p>
+
+</div>
+<!-- PAGE 4 STARTS HERE -->
+<div class="letter-page">
+
+    <p class="letter-text">
+          Even though I lost my belief in God, I know He is still there, and I do pray for the people around me, ma'am. And I have already included you and your new upcoming family in those prayers.
+    </p>
+<p class="letter-text">
+    If therapy was my home, I have two rooms in it.
+    One where I choose to stay a lot, and the other,
+    the one where I can come anytime, where I know I
+    won't be judged or forced to do anything, where
+    I could come and complain about how much I miss
+    the other person in the other room.
+</p>
+<p class="letter-text">
+    Unfortunately, this room is about to close. And a new door is visible to me.
+    Hope the new one is as kind as the others...
+</p>
+<p class="letter-text">
+    And thanks a lot for giving me another perspective
+    on letting go. Thanks a lot for genuinely caring
+    for me. Most people don't, ma'am. Thanks a lot
+    for everything you have done. I will miss you,
+    ma'am.
+</p>
+
+</div>
+<!-- PAGE 5 STARTS HERE -->
+<div class="letter-page">
+
+    <p class="letter-text">
+        I will miss the message saying your next session
+        for Shaima Nasrin is booked. I will miss the way
+        you consoled me every time. I will miss seeing
+        you every Tuesday...
+    </p>
+
+<p class="letter-text">
+    Even though my eyes are filled with tears writing
+    this letter, my heart is filled with happiness for
+    the process you are going through.
+</p>
+<p class="letter-text">
+    Take care, ma'am. Look after your health. Love
+    you, ma'am. Love you a lot...
+</p>
+
+<p class="letter-text letter-signoff">
+    Good Bye ma’am…
+</p>
+
+</div>
+<!-- LETTER PAGE NAVIGATION -->
+<div class="letter-navigation">
+
+    <button
+        type="button"
+        id="letter-prev"
+        class="letter-nav-button"
+        disabled
+    >
+        &#8592; Previous
+    </button>
+
+    <span id="letter-page-indicator">
+        Page 1
+    </span>
+
+    <button
+        type="button"
+        id="letter-next"
+        class="letter-nav-button"
+    >
+        Next &#8594;
+    </button>
+
+</div>
+</div>
+
+<!-- Foreground copy for the smooth letter extraction -->
+
+<!-- Front triangular pocket with broken wax seal -->
+<img
+    src="assets/envelope/envelope-flap-broken.png"
+    alt=""
+    class="envelope-front-pocket"
+>
+    <!-- Envelope flap -->
+    <img
+        src="assets/envelope/envelope-flap-triangle.png"
+        alt=""
+        class="envelope-flap"
+    >
+
+    <!-- Wax seal states -->
+    <img
+        src="assets/envelope/wax-seal-intact.png"
+        alt=""
+        class="wax-seal wax-seal-intact"
+    >
+
+    <img
+        src="assets/envelope/wax-seal-crack-1.png"
+        alt=""
+        class="wax-seal wax-seal-crack-1"
+    >
+
+    <img
+        src="assets/envelope/wax-seal-broken.png"
+        alt=""
+        class="wax-seal wax-seal-broken"
+    >
+<!-- Click-synchronised interaction guide -->
+<div id="interaction-guide" class="interaction-guide">
+    <span id="guide-text"></span>
+</div>
+
+</div> <!-- End of envelope-focus -->
+
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
